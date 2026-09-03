@@ -41,34 +41,8 @@ export default function Home() {
           <h1 className="font-semibold">My AI</h1>
         </header>
 
-        {/* Messages */}
-        <div className="flex-1 overflow-y-auto">
-          <div className="mx-auto max-w-3xl space-y-8 px-4 py-8">
-            
-            {/* User message */}
-            <div className="flex justify-end">
-              <div className="max-w-xl rounded-2xl bg-zinc-800 px-4 py-3">
-                Hey! Explain what Docker is.
-              </div>
-            </div>
+     
 
-            {/* AI message */}
-            <div className="flex gap-4">
-              <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-blue-600">
-                AI
-              </div>
-
-              <div className="max-w-xl pt-1 text-zinc-200">
-                Docker is a platform that allows you to package an application
-                and its dependencies into a container so it can run consistently
-                across different environments.
-              </div>
-            </div>
-
-          </div>
-        </div>
-
-        {/* Input */}
         <div className="border-t border-zinc-800 p-4">
           <div className="mx-auto flex max-w-3xl items-end gap-3 rounded-2xl border border-zinc-700 bg-zinc-900 p-3">
             <textarea
